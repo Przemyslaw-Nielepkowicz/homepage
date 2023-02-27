@@ -1,0 +1,53 @@
+.section__TGA {
+    text-align: center;
+    background-color: #f4a361e1;
+    border: 5px solid #264653;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 70px;
+}
+
+.section__GJA {
+    text-align: center;
+    background-color: #e76f51d7;
+    border: 5px solid #264653;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 70px;
+}
+
+.section__JGA {
+    text-align: center;
+    background-color: #f4a361e1;
+    border: 5px solid #264653;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 70px;
+}
+
+.section__Eurogamer {
+    text-align: center;
+    background-color: #e76f51d7;
+    border: 5px solid #264653;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 70px;
+}
+
+.section__GameSpot {
+    text-align: center;
+    background-color: #f4a361e1;
+    border: 5px solid #264653;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 70px;
+}
+
+.section__IGN {
+    text-align: center;
+    background-color: #e76f51d7;
+    border: 5px solid #264653;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 70px;
+}

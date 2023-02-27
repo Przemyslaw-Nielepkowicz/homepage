@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyGameList</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/aside.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <header class="header">
+        <h1>Game of the Year (GotY)</h1>
+    </header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item--mainPage"><a class="navigation__link" href="#mainArticle"
+                    title="A brief explanation">About GotY</a></li>
+            <li class="navigation__item--gotyTable"><a class="navigation__link" href="#GamesTable"
+                    title="GotY Table">Games of The Year</a></li>
+            <li class="navigation__item--ourProjects"><a class="navigation__link" href="#CV"
+                    title="Projects In Progress">Our Projects</a></li>
+            <li class="navigation__item--contact"><a class="navigation__link" href="#CV" title="Contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="main">
+        <article id="article" class="article">
+            <h3>Game of the Year (GotY) is an award given by various award events and media publications to a video
+                game that they feel represented the pinnacle of gaming that year.</h3>
+        </article>
+        <hr>
+        <article id="article" class="article">
+            <h4>Within the video game industry there are several awards that are given to individual video games,
+                development studios, and other individuals to recognize their merit. Most video game awards are given
+                out on an annual basis, celebrating the best games of the previous year. Most of these awards come from
+                organizations directly within the industry, but there also exist several that come from broader media
+                groups. In addition, many video game publications supply their own end of the year awards.</h4>
+        </article>
+        <div class="container">
+            <table class="table" id="GamesTable">
+                <caption>Game of the Year (GotY)</caption>
+                <tr>
+                    <th class="table__eventTitle" scope="col">Events/Publications/Ceremonies</th>
+                    <th class="table__eventTitle" scope="col">2022</th>
+                    <th class="table__eventTitle" scope="col">2021</th>
+                    <th class="table__eventTitle" scope="col">2020</th>
+                    <th class="table__eventTitle" scope="col">2019</th>
+                    <th class="table__eventTitle" scope="col">2018</th>
+                    <th class="table__eventTitle" scope="col">2017</th>
+                    <th class="table__eventTitle" scope="col">2016</th>
+                    <th class="table__eventTitle" scope="col">2015</th>
+                    <th class="table__eventTitle" scope="col">2014</th>
+
+                </tr>
+                <tr>
+                    <th class="table__eventTitle" scope="row"><a href="#TGAnav" title="See more...">The Game Awards</a>
+                    </th>
+                    <td class="table__gameTitle">Elden Ring</td>
+                    <td class="table__gameTitle">It Takes Two</td>
+                    <td class="table__gameTitle">The Last of Us Part II</td>
+                    <td class="table__gameTitle">Sekiro: Shadows Die Twice</td>
+                    <td class="table__gameTitle">God of War</td>
+                    <td class="table__gameTitle">The Legend of Zelda: Breath of the Wild</td>
+                    <td class="table__gameTitle">Overwatch</td>
+                    <td class="table__gameTitle">The Witcher 3: Wild Hunt</td>
+                    <td class="table__gameTitle">Dragon Age: Inquisition</td>
+                </tr>
+                <tr>
+                    <th class="table__eventTitle" scope="row"><a href="#GJAnav" title="See more...">Golden Joystick
+                            Awards</a>
+                    </th>
+                    <td class="table__gameTitle">Elden Ring</td>
+                    <td class="table__gameTitle">Resident Evil Village</td>
+                    <td class="table__gameTitle">The Last of Us Part II</td>
+                    <td class="table__gameTitle">Resident Evil 2</td>
+                    <td class="table__gameTitle">Fortnite Battle Royale</td>
+                    <td class="table__gameTitle">The Legend of Zelda: Breath of the Wild</td>
+                    <td class="table__gameTitle">Dark Souls III</td>
+                    <td class="table__gameTitle">The Witcher 3: Wild Hunt</td>
+                    <td class="table__gameTitle">Dark Souls II</td>
+                </tr>
+                <tr>
+                    <th class="table__eventTitle" scope="row"><a href="#JGAnav" title="See more...">Japan Game
+                            Awards</a></th>
+                    <td class="table__gameTitle">Elden Ring</td>
+                    <td class="table__gameTitle">Ghost of Tsushima <br><br> Monster Hunter Rise</td>
+                    <td class="table__gameTitle">Animal Crossing: New Horizons</td>
+                    <td class="table__gameTitle">Super Smash Bros. Ultimate</td>
+                    <td class="table__gameTitle">Monster Hunter: World</td>
+                    <td class="table__gameTitle">The Legend of Zelda: Breath of the Wild</td>
+                    <td class="table__gameTitle">Splatoon</td>
+                    <td class="table__gameTitle">Yo-kai Watch 2</td>
+                    <td class="table__gameTitle">Monster Hunter 4 <br><br> Yo-kai Watch</td>
+                </tr>
+                <tr>
+                    <th class="table__eventTitle" scope="row"><a href="#EurogamerNav" title="See more...">Eurogamer</a>
+                    </th>
+                    <td class="table__gameTitle">Elden Ring</td>
+                    <td class="table__gameTitle">Unpacking</td>
+                    <td class="table__gameTitle">Hades</td>
+                    <td class="table__gameTitle">Outer Wilds</td>
+                    <td class="table__gameTitle">Tetris Effect</td>
+                    <td class="table__gameTitle">The Legend of Zelda: Breath of the Wild</td>
+                    <td class="table__gameTitle">Overwatch</td>
+                    <td class="table__gameTitle">Bloodborne</td>
+                    <td class="table__gameTitle">Mario Kart 8</td>
+                </tr>
+
+                <tr>
+                    <th class="table__eventTitle" scope="row"><a href="#GameSpotNav" title="See more...">GameSpot</a>
+                    </th>
+                    <td class="table__gameTitle">Elden Ring</td>
+                    <td class="table__gameTitle">Deathloop</td>
+                    <td class="table__gameTitle">Half-Life: Alyx</td>
+                    <td class="table__gameTitle">Sekiro: Shadows Die Twice</td>
+                    <td class="table__gameTitle">Red Dead Redemption 2</td>
+                    <td class="table__gameTitle">The Legend of Zelda: Breath of the Wild</td>
+                    <td class="table__gameTitle">Overwatch</td>
+                    <td class="table__gameTitle">The Witcher 3: Wild Hunt</td>
+                    <td class="table__gameTitle">Middle-earth: Shadow of Mordor</td>
+                </tr>
+                <tr>
+                    <th class="table__eventTitle" scope="row"><a href="#IGNnav" title="See more...">IGN</a></th>
+                    <td class="table__gameTitle">Elden Ring</td>
+                    <td class="table__gameTitle">Forza Horizon 5</td>
+                    <td class="table__gameTitle">Hades</td>
+                    <td class="table__gameTitle">Control</td>
+                    <td class="table__gameTitle">God of War</td>
+                    <td class="table__gameTitle">The Legend of Zelda: Breath of the Wild</td>
+                    <td class="table__gameTitle">Overwatch</td>
+                    <td class="table__gameTitle">The Witcher 3: Wild Hunt</td>
+                    <td class="table__gameTitle">Dragon Age: Inquisition</td>
+                </tr>
+            </table>
+        </div>
+
+        <section id="TGAnav" class="section__TGA">
+            <h3>The Game Awards</h3>The Game Awards were created in 2014 by Geoff Keighley, following the cancellation
+            of the Spike Video Game Awards. Keighley desired to make an awards ceremony comparable to the Oscars for the
+            video game industry, and worked with industry partners to establish the annual show. The show features not
+            only awards but also several video game announcements and other entertainment, such as a live orchestra. The
+            Game Awards are managed by an advisory panel made up from video game hardware manufacturers, and video game
+            developers and publishers. Each year the panel selects a number of global video game magazines and website
+            to participate in the voting process. These journalists provide their nominees for each award category which
+            are then tallied by the advisory committee. The journalists then vote from the nominees. There is also a 10%
+            contribution for each category from online fan voting, held in the weeks prior to the ceremony.
+        </section>
+        <section id="GJAnav" class="section__GJA">
+            <h3>Golden Joystick Awards</h3>The Golden Joystick Awards were established by a number of video game
+            magazines in 1983 to hold an open public voting for winners in each category. Though initially only for
+            British video game players, it later opened to voting from the global community through online voting. The
+            winners are announced through a ceremony located in a London venue each year. Nominees for the award are
+            selected by the awards' managing partners from games released in that year. These nominees are narrowed down
+            to a shortlist which is then put up for public voting. Winners are selected directly from the results of
+            this voting period.
+        </section>
+        <section id="JGAnav" class="section__JGA">
+            <h3>Japan Game Awards</h3>Launched in 1996 as the Computer Entertainment Supplier's Association (CESA)
+            Awards, the Japan Game Awards became the awards vehicle for the Japanese government's Ministry of Economy,
+            Trade and Industry since 2006 to recognize video game achievement in Japan. Potential winners are not
+            limited to Japanese-developed games.
+        </section>
+        <section id="EurogamerNav" class="section__Eurogamer">
+            <h3>Eurogamer</h3><a target="_blank" rel="noreferrer noopener"
+                href="https://www.eurogamer.net/our-2022-game-of-the-year-will-elden-ring-be-the-last-of-its-kind-1">More
+                information at this address...</a>
+        </section>
+        <section id="GameSpotNav" class="section__GameSpot">
+            <h3>GameSpot</h3><a target="_blank" rel="noreferrer noopener"
+                href="https://www.gamespot.com/articles/elden-ring-is-gamespots-game-of-the-year-2022/1100-6509957/">More
+                information at this address...</a>
+        </section>
+        <section id="IGNnav" class="section__IGN">
+            <h3>IGN</h3><a target="_blank" rel="noreferrer noopener"
+                href="https://www.ign.com/articles/the-game-awards-2022-winners">More information at this
+                address...</a>
+        </section>
+
+        <div class="container__line"></div>
+
+        <aside class="aside__contactProjects" id="CV">
+            <h3>Contact&Projects</h3><br>Have you noticed a bug on our website? Report it to us at this address:
+            nielepkowicz.przemyslaw@gmail.com
+            <br> Our Other Projects:
+            <br><a target="_blank" rel="noreferrer noopener" href="https://codepen.io/Przemyslaw97/pen/bGjexRG"
+                title="Open a new tab for the page CodePen.io">Other website</a>
+            <br><a target="_blank" rel="noreferrer noopener" href="https://lazy-sloth-games.itch.io/rootless"
+                title="Open a new tab for the page Itch.io">Game Project</a>
+        </aside>
+
+    </main>
+
+    <button class="button"><span class="themeName">Light</span> Theme</button>
+
+    <footer class="footer">
+        ©Copyright 2023 LearnCode®. All rights reserved.
+        <ul class="footer__list">
+            <li class="footer__link--privacyPolicy"><a target="_blank" rel="noreferrer noopener"
+                    href="https://policies.google.com/privacy?hl=en-US" title="Privacy Policy">Privacy Policy</a>
+            </li>
+            <li class="footer__link--cookies"><a target="_blank" rel="noreferrer noopener"
+                    href="https://commission.europa.eu/cookies-policy_en" title="Cookies Policy">Cookies Policy</a></li>
+            <li class="footer__link--ToU"><a target="_blank" rel="noreferrer noopener"
+                    href="https://www.termsfeed.com/blog/sample-terms-of-use-template/" title="Terms of Use">Terms of
+                    Use</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>

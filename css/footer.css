@@ -1,0 +1,27 @@
+.footer {
+    text-align: center;
+    background-color: #46778b8f;
+    color: white;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.footer__list {
+    text-align: center;
+    padding: 5px;
+}
+
+.footer__link--privacyPolicy {
+    display: inline;
+    padding: 6px;
+}
+
+.footer__link--cookies {
+    display: inline;
+    padding: 6px;
+}
+
+.footer__link--ToU {
+    display: inline;
+    padding: 6px;
+}

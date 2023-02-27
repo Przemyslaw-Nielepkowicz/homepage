@@ -1,0 +1,43 @@
+.navigation__list {
+    text-align: center;
+    background-color: #E76F51;
+    padding: 15px;
+}
+
+.navigation__link:hover {
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.navigation__item--mainPage {
+    display: inline-block;
+    padding: 10px;
+    margin: auto;
+}
+
+.navigation__item--gotyTable {
+    display: inline-block;
+    padding: 10px;
+    margin: auto;
+}
+
+
+.navigation__item--ourProjects {
+    display: inline-block;
+    padding: 10px;
+    margin: auto;
+}
+
+
+.navigation__item--contact {
+    display: inline-block;
+    padding: 10px;
+    margin: auto;
+}
+
+.navigation__link {
+    color: white;
+    background-color: #264653;
+    text-decoration: none;
+    padding: 5px 10px;
+}
