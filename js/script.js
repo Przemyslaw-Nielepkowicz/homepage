@@ -1,14 +1,22 @@
-let button = document.querySelector(".button");
-let body = document.querySelector(".body");
-let themeName = document.querySelector(".themeName");
+{
+    const welcome = () => {
+    console.log("Hello World");
+    }
 
-button.addEventListener("click", () => {
+const toogleBackground = () => { 
+    const body = document.querySelector(".body");
+    const themeName = document.querySelector(".js-themeName");
+    
     body.classList.toggle("light");
+    themeName.innerText = body.classList.contains("light") ? "Normal" : "Light";
 
-    if (body.classList.contains("light")) {
-        themeName.innerText = "Normal";
-    }
-    else {
-        themeName.innerText = "Light";
-    }
-});
+};
+
+const init = () => {
+const changeBackgroundButton = document.querySelector(".js-changeBackgroundButton");
+
+changeBackgroundButton.addEventListener("click", toogleBackground);
+};
+welcome();
+init();
+}
